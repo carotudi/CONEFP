@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: "Merriweather Sans", sans-serif;
+font-family: "Outfit", sans-serif;
 
 }
 
@@ -42,9 +44,10 @@ body{
 }
 
 .container-form h2{
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: blue;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: black;
+    
 }
 
 .logo{
@@ -87,7 +90,7 @@ body{
 }
 
 .container-form a{
-    color: green;
+    color: blue;
     font-size: 14px;
     margin-top: 5px;
 }
@@ -100,6 +103,18 @@ body{
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
-    background-color: green;
+    background-color: blue;
     color: white;
+}
+
+.sign-up span{
+    font-size: 16px;
+    margin-top: 10px;
+    color : green;
+}
+
+.sign-in span{
+    font-size: 16px;
+    margin-top: 10px;
+    color : green;
 }
