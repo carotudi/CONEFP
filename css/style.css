@@ -50,7 +50,7 @@ body{
 .logo{
     border: 2px solid purple;
     display: flex;
-    height: 200px;
+    height: 300px;
     align-items: center;
     margin-bottom: 10px;
     flex-direction: column;
