@@ -1,28 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- creamos el titulo de la pagina y enlazamos el css para darle estilo a la pagina-->
-
     <title>pagina de inicio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- creamos un contenedor para la pagina y dentro de este contenedor creamos dun formulario para iniciar sesion-->
     <div class="container">
         <div class="container-form">
             <form class="sign-in">
                 <h2>Iniciar Sesión</h2>
-                <!--creamos un contenedor para el logo y dentro de este contenedor enlazamos la imagen del logo y le damos un tamaño-->
                 <div class="logo">
                     <link rel="icon" href="img/logo.png">
                     <img src="img/logo.png" alt="Logo" height="300">
                 </div>
-                <!--creamos un span para mostrar un mensaje al usuario y luego creamos dos contenedores para los inputs de correo y contraseña, cada contenedor tiene un icono y un input-->
                 <span>Ingrese su correo y contraseña</span>
                 <div class="container-input">
-                    <!--creamos un contenedor para el input de correo y dentro de este contenedor creamos un icono y un input para el correo -->
                     <ion-icon name="mail-outline"></ion-icon>
                     <input type="text" placeholder="Email">
                 </div>
@@ -30,23 +24,18 @@
                     <ion-icon name="lock-closed-outline"></ion-icon>
                     <input type="password" placeholder="Contraseña">
                 </div>
-                <!--creamos un enlace para que el usuario pueda recuperar su contraseña en caso de olvidarla y un boton para iniciar sesion-->   
                 <a href="#">¿Olvidaste tu contraseña?</a>
                 <button class="button">Iniciar Sesión</button>
             </form>
 
         </div>
-        <!--creamos otro contenedor para el formulario de registro y dentro de este contenedor creamos un formulario para registrarse, este formulario 
-        tiene los mismos elementos que el formulario de inicio de sesion pero con algunos cambios como el titulo, el mensaje y los inputs -->
         <div class="container-form">
             <form class="sign-up">
                 <h2>Registrarse</h2>
                 <div class="logo">
-                    <!-- creamos un contenedor para el logo y dentro de este contenedor enlazamos la imagen del logo y le damos un tamaño-->
                     <link rel="icon" href="img/logo.png">
                     <img src="img/logo.png" alt="Logo" height="300">
                 </div>
-                <!--creamos un span para mostrar un mensaje al usuario y luego creamos cinco contenedores para los inputs de nombre, apellidos, correo, celular y contraseña, cada contenedor tiene un icono y un input-->
                 <span>Ingrese su informacion</span>
                 <div class="container-input">
                     <ion-icon name="person-outline"></ion-icon>
@@ -68,7 +57,6 @@
                 <div class="container-input">
                     <ion-icon name="lock-closed-outline"></ion-icon>
                     <input type="password" placeholder="Contraseña">
-                    <!--creamos un enlace para que el usuario pueda iniciar sesion en caso de que ya tenga una cuenta y un boton para registrarse-->
                 </div>
                 <button class="button">Registrarse</button>
             </form>
@@ -76,8 +64,8 @@
         </div>
 
     </div>
-<!--enlazamos el archivo de javascript para darle funcionalidad a la pagina y luego enlazamos los iconos de ionicons para mostrar los iconos en los inputs-->
-    <script src="Js/script.js"></script>
+
+    <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
